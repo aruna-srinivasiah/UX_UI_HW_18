@@ -1,0 +1,81 @@
+
+body {
+    background-color:rosybrown;
+}
+
+/* NAVBAR CSS */
+
+/* Create a selector that targets our elements with the class of inline-block,  */ 
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    vertical-align:auto;
+};
+
+/* Create a selector that targets our div with the class of logo  */ 
+.logo {
+    width: 23%;
+    height: 10px;
+    padding: 1%;
+    text-align: center;
+    justify-content: right;
+
+}
+
+/* Create a CSS selector that targets our HTML element nav */
+nav {
+    width: 73%;
+    padding: 1%;
+    font-family: 'Special Elite', cursive;
+    align-items: center;
+    justify-content: right;
+    
+}
+
+/* Let’s align our unordered list in its container to the right */
+nav.inline-block {
+    width: 50%;
+    margin-left: auto;
+    padding: 25px;
+    align-items: center;
+    justify-content: right;
+}
+
+nav.li {
+    padding: 25px;
+    align-items: center;
+    justify-content: right;
+}
+
+/* HERO IMAGE CSS */
+
+/* Let’s center our images inside their containers also. In our CSS selector that targets the class of logo */
+.herolmg {
+    height: 600px;
+    padding: 25px;
+}
+
+/* Let’s center our images inside their containers also. In our CSS selector that targets the class of logo */
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* FOOTER CSS */
+
+/* write a CSS selector that targets the base HTML footer element */
+footer {
+    background color: #373738;
+
+}
+
+footer.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+ul {
+    justify-content: top;
+    padding-left: 50%;
+    padding-right: 50%;
+}
