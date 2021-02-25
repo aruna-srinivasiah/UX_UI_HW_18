@@ -1,81 +1,95 @@
-
 body {
-    background-color:rosybrown;
+    background-image: url("zoe-mccrum-rXQ-ZQr8M0s-unsplash.jpg");
+    background-color: rosybrown;
+
 }
 
-/* NAVBAR CSS */
+.backgroundImg {
+    height: 10px;
+    width: 10px;
+    background-attachment: fixed;
+}
 
-/* Create a selector that targets our elements with the class of inline-block,  */ 
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
-    vertical-align:auto;
-};
-
-/* Create a selector that targets our div with the class of logo  */ 
 .logo {
     width: 23%;
-    height: 10px;
     padding: 1%;
     text-align: center;
-    justify-content: right;
-
 }
 
-/* Create a CSS selector that targets our HTML element nav */
 nav {
+    display: flex;
     width: 73%;
     padding: 1%;
-    font-family: 'Special Elite', cursive;
-    align-items: center;
-    justify-content: right;
-    
-}
-
-/* Let’s align our unordered list in its container to the right */
-nav.inline-block {
     width: 50%;
     margin-left: auto;
-    padding: 25px;
-    align-items: center;
-    justify-content: right;
 }
 
-nav.li {
-    padding: 25px;
-    align-items: center;
-    justify-content: right;
+.inline-block {
+    display: flex;
+    display: inline-block;
+    vertical-align: top;
+    justify-content: space-between;
 }
 
-/* HERO IMAGE CSS */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    align-items:flex-start;
+    padding: 38px;
+}
 
-/* Let’s center our images inside their containers also. In our CSS selector that targets the class of logo */
-.herolmg {
+.hero {
     height: 600px;
     padding: 25px;
 }
 
-/* Let’s center our images inside their containers also. In our CSS selector that targets the class of logo */
 .content {
     width: 500px;
     margin: 0 auto;
 }
 
-/* FOOTER CSS */
-
-/* write a CSS selector that targets the base HTML footer element */
-footer {
-    background color: #373738;
+.flexContainer {
+    display: flex;
+    flex-direction: row-reverse;
 
 }
 
-footer.inline-block {
-    display: inline-block;
-    vertical-align: top;
+.flexChild {
+    width: 33%;
+    padding: 5px;
+    margin: auto;
+    flex-direction: column;
 }
+
 
 ul {
-    justify-content: top;
-    padding-left: 50%;
-    padding-right: 50%;
+    width: 50%;
+    margin-left: auto;
+    width: 50%;
+    margin-left: auto;
+}
+
+.workGrid {
+    display: grid;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 30px 200px auto 100px;
+}
+
+footer {
+    background-color: #373738;
+    padding: 45px;
+}
+
+@media only screen and (max-width: 600) {
+        .flexContainer {
+        flex-direction: column;
+     }
+        .flexChild {
+            width: 100%;
+        }
+
 }

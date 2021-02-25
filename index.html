@@ -3,43 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aruna Srinivasiah's Portfolio</title>
-    <link rel="stylesheet" href="/Users/arunasrinivasiah/Desktop/Georgia Tech UX:UI Bootcamp 2020-2021/Portfolio/UX_UI_HW_17/CSS/style.css">
+    <title>Aruna Srinivasiah's Portfolio Website</title>
+    <link rel="stylesheet" href="/Users/arunasrinivasiah/Desktop/Georgia Tech UX:UI Bootcamp 2020-2021/Portfolio/UX_UI_HW_18/CSS/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
 
+    <!-- Header section -->
+
     <header class="navigation">
-        <div class="inline-block, logo">
+        <div class="inline-block logo">
             <img src="images/Aruna Srinivasiah.png" alt="Aruna Srinivasiah">
         </div>
+
         <nav class="inline-block">
-            <ul>
-                <li class="inline-block">ABOUT</li>
-                <li class="inline-block">SKILLS</li>
-                <li class="inline-block">WORK</li>
-                <li class="inline-block">CONTACT</li>
-            </ul>
+            <div class="nav-bar">
+                <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
+                <div class="nav-item"><a href="#" class="nav-link">Skills</a></div>
+                <div class="nav-item"><a href="about.html" class="nav-link">My Story</a></div>
+                <div class="nav-item"><a href="work.html" class="nav-link">Work</a></div>
+                <div class="nav-item"><a href="#" class="nav-link">Contact</a></div>
+            </div>
         </nav>
     </header>
-    <section class="herolmg">
+
+    <!-- Hero section -->
+
+    <section class="hero">
         <div class="content">
-            <img src="images/ed28f98af7624d347e83e5bee221ba12.jpeg" alt="Aruna Srinivasiah">
-            <p>A paragraph about me XXX add this here</p>
-            <button>Download Resume</button>
+            <h1>Hi there! I'm <strong>Aruna.</strong></h1>
+            <p>I’m a User Experience Designer and Researcher. I love understanding and 
+                empathizing with people, learning about what makes them tick, and exploring 
+                creative and intuitive solutions that help them live more intentional and 
+                purposeful lives.</p>
         </div>
     </section>
-    <footer>
+
+    
+
+     <!-- My Story -->
+     <section class="my-story">
+        <h2>Who I am</h2>
+            <p></p>
+            <p></p>
+        </div>
+
+        <img src="images/Profilepicture.jpeg" alt="Me, myself and I">
+    </section>
+
+
+     <!--  My UX Skills section coded using CSS flex -->
+    <section class="mySkills">
+        <h1>My UX Skills</h1>
+        <div class="flexContainer">
+
+            <div class="flexChild">
+                <h3>User Experience Research</h3>
+                <p>I have experience with conducting user interviews, creating personas, 
+                    synthesizing and analyzing data, ideation/brainstorming, usability tests 
+                    and card sorting for a variety of scenarios and projects.</p>
+            </div>
+
+            <div class=="flexChild">
+                <h3>User Experience Design</h3>
+                <p>I have experience with information architecture, storyboarding, sketching, 
+                    wire framing, and prototyping for a variety of scenarios and projects.</p>
+            </div>
+
+            <div class=="flexChild">
+                <h3>Front-End Development</h3>
+                <p>I have experience with HTML, CSS, JavaScript, Bootstrap and GitHub for a variety 
+                    of scenarios and projects.</p>
+            </div>
+
+        </div>  
+    </section>
+
+  <!-- My Work Section Constructed using CSS Grid -->
+     <section class="myWork">
+         <h1>My Work</h1>
+         <div class="workGrid">
+                <div class="gridContainer">
+                    <img src="images/SPARK Logo.svg">
+                </div>
+
+                <div class="grid-item1">
+                    <h4></h4>
+                    <p></p>
+                    <button></button>
+                </div>
+
+                <div class="grid-item2">
+                    <img src"">
+                </div>
+
+                <div class="grid-item3">
+                    <h4></h4>
+                    <p></p>
+                    <button></button>
+                </div>
+            </div>
+
+            <h3>View all projects</h3>
+
+     </section>
+
+     <!-- Footer section -->
+
+     <footer>
         <ul>
-            <li class="inline-block">About</li>
+            <li class="inline-block">My Story</li>
             <li class="inline-block">Skills</li>
             <li class="inline-block">Work</li>
             <li class="inline-block">Contact</li>
         </ul>
     </footer>
-    </header>
+
+
 </body>
+
 </html>
