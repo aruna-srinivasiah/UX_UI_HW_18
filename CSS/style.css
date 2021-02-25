@@ -21,6 +21,8 @@ hr {
     width: 23%;
     padding: 1%;
     text-align: center;
+    border-top: royalblue;
+    border-width: 100px;
 }
 
 nav {
@@ -60,11 +62,21 @@ nav {
     padding: 25px;
 }
 
+.mySkills h1 {
+    text-align: center;
+}
+
 .content {
     font-family: 'Cutive Mono', monospace;
     width: 500px;
     margin: 0 auto;
     vertical-align: middle;
+    border: 5px solid black;
+    padding: 15px;
+    width: 275px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 
 }
 
@@ -73,6 +85,7 @@ nav {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
+
 
 }
 
@@ -89,6 +102,10 @@ ul {
     margin-left: auto;
     width: 50%;
     margin-left: auto;
+}
+
+.myWork h1 {
+    text-align: center;
 }
 
 .workGrid {
